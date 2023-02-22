@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script type="module">
+        import 'webcomponent-qr-code';
+        import 'emoji-slider';
+    </script>
+    <script type="module" src="./node_module/emoji-slider/bin/emoji-slider.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <p>Apple</p>
+            <qr-code data="https://www.apple.com"></qr-code>
+            <emoji-slider emoji="🍎"></emoji-slider>
+        </div>
+        <div>
+            <p>google</p>
+            <qr-code data="https://www.google.com"></qr-code>
+            <emoji-slider emoji="👀"></emoji-slider>
+        </div>
+        <div>
+            <p>microsoft</p>
+            <qr-code data="https://www.microsoft.com"></qr-code>
+            <emoji-slider emoji="🎁"></emoji-slider>
+        </div>
+
+    </div>
+</body>
+</html>
